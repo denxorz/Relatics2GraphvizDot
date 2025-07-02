@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<elements>
+  <Factory identifyBy="@id">
+    <Element id="FAC-1">
+      <name>Temple</name>
+    </Element>
+    <Element id="FAC-2">
+      <name>Westcoast Towers</name>
+    </Element>
+    <Element id="FAC-3">
+      <name>Plastic</name>
+    </Element>
+    <Element id="FAC-4">
+      <name>Rocket</name>
+    </Element>
+    <Element id="FAC-5">
+      <name>Ficsonium</name>
+    </Element>
+    <Element id="FAC-6">
+      <name>Portal</name>
+    </Element>
+    <Element id="FAC-7">
+      <name>Booster church</name>
+    </Element>
+    <Element id="FAC-8">
+      <name>Utility Towers</name>
+    </Element>
+    <Element id="FAC-9">
+      <name>Ficsmas</name>
+    </Element>
+    <Element id="FAC-10">
+      <name>Dam</name>
+    </Element>
+    <Element id="FAC-11">
+      <name>SAM</name>
+    </Element>
+    <Element id="FAC-12">
+      <name>Quartz (south)</name>
+    </Element>
+    <Element id="FAC-13">
+      <name>Turbo</name>
+    </Element>
+    <Element id="FAC-14">
+      <name>Virus</name>
+    </Element>
+    <Element id="FAC-15">
+      <name>Coppersheet</name>
+    </Element>
+    <Element id="FAC-16">
+      <name>Recycle</name>
+    </Element>
+    <Element id="FAC-17">
+      <name>Basics</name>
+    </Element>
+    <Element id="FAC-18">
+      <name>Coal power</name>
+    </Element>
+    <Element id="FAC-19">
+      <name>Nuc</name>
+    </Element>
+    <Element id="FAC-20">
+      <name>Fics</name>
+    </Element>
+    <Element id="FAC-21">
+      <name>Quartz (Vista)</name>
+    </Element>
+    <Element id="FAC-22">
+      <name>Heavy Frame (Lost crater)</name>
+    </Element>
+    <Element id="FAC-23">
+      <name>Castle</name>
+    </Element>
+    <Element id="FAC-24">
+      <name>Super computers</name>
+    </Element>
+    <Element id="FAC-25">
+      <name>Egel</name>
+    </Element>
+    <Element id="FAC-26">
+      <name>Fused frames (The North)</name>
+    </Element>
+    <Element id="FAC-27">
+      <name>Quartz (North)</name>
+    </Element>
+  </Factory>
+  <Factory.Import identifyBy="@id">
+    <Element id="IMP-1">
+      <amount_x0020_per_x0020_minute>80.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-1" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-1" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-2" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-2">
+      <amount_x0020_per_x0020_minute>28.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-2" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-1" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-3" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-3">
+      <amount_x0020_per_x0020_minute>107.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-1" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-7" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-2" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-4">
+      <amount_x0020_per_x0020_minute>855.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-1" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-24" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-2" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-5">
+      <amount_x0020_per_x0020_minute>131.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-1" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-6" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-2" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-6">
+      <amount_x0020_per_x0020_minute>45.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-1" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-19" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-2" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-7">
+      <amount_x0020_per_x0020_minute>124.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-1" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-4" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-2" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-8">
+      <amount_x0020_per_x0020_minute>137.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-2" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-19" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-3" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-9">
+      <amount_x0020_per_x0020_minute>249.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-2" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-24" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-3" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-10">
+      <amount_x0020_per_x0020_minute>42.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-2" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-4" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-3" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-11">
+      <amount_x0020_per_x0020_minute>36.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-2" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-7" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-3" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-12">
+      <amount_x0020_per_x0020_minute>61.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-2" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-6" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-3" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-13">
+      <amount_x0020_per_x0020_minute>95.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-1" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-25" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-8" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-14">
+      <amount_x0020_per_x0020_minute>10.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-9" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-14" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-8" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-15">
+      <amount_x0020_per_x0020_minute>2.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-7" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-14" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-22" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-16">
+      <amount_x0020_per_x0020_minute>1.000</amount_x0020_per_x0020_minute>
+      <method>Drone</method>
+      <carries>
+        <Item id="ITM-11" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-14" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-24" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-17">
+      <amount_x0020_per_x0020_minute>40.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-2" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-25" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-8" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-18">
+      <amount_x0020_per_x0020_minute>36.474</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-2" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-17" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-3" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-19">
+      <amount_x0020_per_x0020_minute>8.125</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-1" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-17" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-2" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-20">
+      <amount_x0020_per_x0020_minute>6.250</amount_x0020_per_x0020_minute>
+      <method>Drone</method>
+      <carries>
+        <Item id="ITM-5" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-17" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-21" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-21">
+      <amount_x0020_per_x0020_minute>1.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-8" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-25" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-26" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-22">
+      <amount_x0020_per_x0020_minute>40.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-4" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-25" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-23" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-23">
+      <amount_x0020_per_x0020_minute>7.000</amount_x0020_per_x0020_minute>
+      <method>Drone</method>
+      <carries>
+        <Item id="ITM-5" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-25" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-12" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-24">
+      <amount_x0020_per_x0020_minute>1.000</amount_x0020_per_x0020_minute>
+      <method>Drone</method>
+      <carries>
+        <Item id="ITM-6" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-1" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-25" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-25">
+      <amount_x0020_per_x0020_minute>45.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-4" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-19" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-23" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-27">
+      <amount_x0020_per_x0020_minute>100.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-14" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-5" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-20" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-28">
+      <amount_x0020_per_x0020_minute>75.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-15" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-5" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-20" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-29">
+      <amount_x0020_per_x0020_minute>12.000</amount_x0020_per_x0020_minute>
+      <method>Drone</method>
+      <carries>
+        <Item id="ITM-16" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-5" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-6" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-30">
+      <amount_x0020_per_x0020_minute>4.500</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-7" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-26" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-22" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-31">
+      <amount_x0020_per_x0020_minute>225.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-4" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-26" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-23" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-32">
+      <amount_x0020_per_x0020_minute>90.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-4" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-6" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-23" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-33">
+      <amount_x0020_per_x0020_minute>1093.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-4" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-24" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-23" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-34">
+      <amount_x0020_per_x0020_minute>268.000</amount_x0020_per_x0020_minute>
+      <method>Train</method>
+      <carries>
+        <Item id="ITM-4" />
+      </carries>
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-4" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-23" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-35">
+      <amount_x0020_per_x0020_minute>167.000</amount_x0020_per_x0020_minute>
+      <method>Drone</method>
+      <carries />
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-6" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-21" />
+      </Ship_x0020_from>
+    </Element>
+    <Element id="IMP-36">
+      <amount_x0020_per_x0020_minute>285.000</amount_x0020_per_x0020_minute>
+      <method>Belt</method>
+      <carries />
+      <provides_x0020_items_x0020_to>
+        <Factory id="FAC-19" />
+      </provides_x0020_items_x0020_to>
+      <Ship_x0020_from>
+        <Factory id="FAC-27" />
+      </Ship_x0020_from>
+    </Element>
+  </Factory.Import>
+  <Item identifyBy="@id">
+    <Element id="ITM-1">
+      <name>Rubber</name>
+    </Element>
+    <Element id="ITM-2">
+      <name>Plastic</name>
+    </Element>
+    <Element id="ITM-4">
+      <name>AluCase</name>
+    </Element>
+    <Element id="ITM-5">
+      <name>Quartz Crystal</name>
+    </Element>
+    <Element id="ITM-6">
+      <name>Nuclear Pasta</name>
+    </Element>
+    <Element id="ITM-7">
+      <name>Heavy Frame</name>
+    </Element>
+    <Element id="ITM-8">
+      <name>Fused Modular Frame</name>
+    </Element>
+    <Element id="ITM-9">
+      <name>Computer</name>
+    </Element>
+    <Element id="ITM-11">
+      <name>Super Computer</name>
+    </Element>
+    <Element id="ITM-14">
+      <name>Fics Ingot</name>
+    </Element>
+    <Element id="ITM-15">
+      <name>Reanimated SAM</name>
+    </Element>
+    <Element id="ITM-16">
+      <name>Singularity</name>
+    </Element>
+  </Item>
+</elements>
