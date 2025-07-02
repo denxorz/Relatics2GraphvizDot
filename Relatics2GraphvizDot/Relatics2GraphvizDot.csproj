@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="GiGraph.Dot" Version="5.0.0" />
+    <PackageReference Include="DotNetGraph" Version="3.3.0" />
     <PackageReference Include="GraphVizNet" Version="1.0.3" />
   </ItemGroup>
 
