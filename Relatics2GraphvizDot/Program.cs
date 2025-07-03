@@ -86,7 +86,7 @@ record Factory(string Id, string Name)
         "FAC-6" => new(5, 10), // Portal
         "FAC-7" => new(5, 12), // Booster church
         "FAC-8" => new(12, 3), // Utility Towers
-        "FAC-9" => new(12, 8), // Ficsmas
+        "FAC-9" => new(13,10), // Ficsmas
         "FAC-10" => new(10, 8), // Dam
         "FAC-12" => new(8, 11), // Quartz(south)
         "FAC-13" => new(11, 10), // Turbo
@@ -99,7 +99,7 @@ record Factory(string Id, string Name)
         "FAC-20" => new(10, 9), // Fics
         "FAC-21" => new(7, 10), // Quartz(Vista)
         "FAC-22" => new(14, 2), // Heavy Frame (Lost crater)
-        "FAC-23" => new(5, 6), // Castle
+        "FAC-23" => new(7, 6), // Castle
         "FAC-24" => new(12, 7), // Super computers
         "FAC-25" => new(13, 3), // Egel
         "FAC-26" => new(11, 0), // Fused frames(The North)
